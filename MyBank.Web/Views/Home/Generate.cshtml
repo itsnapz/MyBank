@@ -1,0 +1,14 @@
+﻿@model GenerateModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1>Generování XLSX</h1>
+    <form asp-action="Generate">
+        <input type="number" value="" asp-for="BankCode" placeholder="Kód banky"/>
+        <button type="submit">Vygenerovat</button>
+    </form>
+</div>

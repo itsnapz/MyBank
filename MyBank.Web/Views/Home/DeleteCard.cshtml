@@ -1,0 +1,13 @@
+﻿@model CardRemoveModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <form asp-action="DeleteCard">
+        <input type="number" value="" asp-for="CardId" placeholder="Číslo karty"/>
+        <button type="submit">Zrušit kartu</button>
+    </form>
+</div>

@@ -1,0 +1,29 @@
+﻿@model System.Collections.Generic.List<MyBank.Web.Data.Transaction>
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1 style="margin-bottom: 30px">Transakce</h1>
+    @foreach (var transaction in Model)
+    {
+        if (transaction.Sent == false)
+        {
+            <div>
+                <h3 style="color: green;">@transaction.MoneyCount,-</h3>
+                <h3>Od: @transaction.SenderId</h3>
+                <h3>@transaction.Date</h3>
+            </div> 
+        }
+        else
+        {
+            <div>
+                <h3 style="color: red;">@transaction.MoneyCount,-</h3>
+                <h3>Pro: @transaction.TargetId</h3>
+                <h3>@transaction.Date</h3>
+            </div> 
+        }
+    }
+</div>

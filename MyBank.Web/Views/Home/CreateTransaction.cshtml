@@ -1,0 +1,18 @@
+﻿@model MyBank.Web.Data.Transaction
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1>Nová transakce</h1>
+    
+    <form asp-action="CreateTransaction">
+        <input value="" type="text" placeholder="Číslo účtu" asp-for="TargetId"/>
+        <input value="" type="number" placeholder="Částka" asp-for="MoneyCount"/>
+        <input value="" type="number" placeholder="Číslo banky" asp-for="TargetBankCode"/>
+        <input value="" type="number" placeholder="Variabilní symbol" asp-for="VariableSymbol"/>
+        <button type="submit">Odeslat</button>
+    </form>
+</div>

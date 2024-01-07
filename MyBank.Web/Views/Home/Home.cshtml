@@ -1,0 +1,26 @@
+﻿@model MyBank.Web.Data.Client
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1 style="margin-bottom: 30px">Vitejte, @Model.Name</h1>
+    <h2>Váš peněžní zůstatek je: @Model.Money,-</h2>
+    
+    @{
+        if (Model.CardId == null)
+        {
+            <h2 style="margin-bottom: 25px;">Nemáte propojenou žádnou kartu❌</h2>
+        }
+        else
+        {
+            <h2 style="margin-bottom: 25px;">Máte propojenou kartu✅</h2>
+        }
+    }
+    
+    <a href="/Home/Transactions" style="text-decoration: none; color: darkslategray; font-size: 26px; margin-top: 25px;">Transakce</a>
+    <br/>
+    <a href="/Home/CreateTransaction" style="text-decoration: none; color: darkslategray; font-size: 26px;">Vytvořit transakci</a>
+</div>

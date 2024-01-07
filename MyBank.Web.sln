@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Web", "MyBank.Web\MyBank.Web.csproj", "{9115613F-AF82-4DD2-B4B8-7B54C46E36DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.Lib", "MyBank.Lib\MyBank.Lib.csproj", "{27752AF0-AA19-4DBD-96A0-BC301BDC3810}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyBank.ATM", "MyBank.ATM\MyBank.ATM.csproj", "{0EA92EF0-2E21-4D09-BD14-31E3612BD501}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9115613F-AF82-4DD2-B4B8-7B54C46E36DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9115613F-AF82-4DD2-B4B8-7B54C46E36DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9115613F-AF82-4DD2-B4B8-7B54C46E36DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9115613F-AF82-4DD2-B4B8-7B54C46E36DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27752AF0-AA19-4DBD-96A0-BC301BDC3810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27752AF0-AA19-4DBD-96A0-BC301BDC3810}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27752AF0-AA19-4DBD-96A0-BC301BDC3810}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27752AF0-AA19-4DBD-96A0-BC301BDC3810}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EA92EF0-2E21-4D09-BD14-31E3612BD501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EA92EF0-2E21-4D09-BD14-31E3612BD501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EA92EF0-2E21-4D09-BD14-31E3612BD501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EA92EF0-2E21-4D09-BD14-31E3612BD501}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

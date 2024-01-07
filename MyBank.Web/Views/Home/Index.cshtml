@@ -1,0 +1,13 @@
+﻿@model LoginModel
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form asp-action="Index">
+        <input value="" type="text" asp-for="Id"/>
+        <input value="" type="password" asp-for="Password"/>
+        <button type="submit">Přihlásit se</button>
+    </form>
+</div>

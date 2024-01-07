@@ -1,0 +1,14 @@
+﻿@model CardModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <form asp-action="CreateCard">
+        <input type="text" value="" asp-for="Owner" placeholder="Číslo účtu"/>
+        <input type="password" value="" asp-for="Pin" placeholder="Pin"/>
+        <button type="submit">Vytvořit kartu</button>
+    </form>
+</div>

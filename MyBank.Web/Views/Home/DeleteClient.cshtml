@@ -1,0 +1,14 @@
+﻿@model RemoveModel
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<div class="text-center">
+    <h1>Vymazání klienta</h1>
+    <form asp-action="DeleteClient">
+        <input value="" asp-for="Id" type="text" placeholder="Zadejte číslo účtu"/>
+        <button type="submit">Smazat</button>
+    </form>
+</div>

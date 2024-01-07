@@ -1,0 +1,6 @@
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\bin\Debug\MyBank.Lib.dll
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\bin\Debug\MyBank.Lib.pdb
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\obj\Debug\MyBank.Lib.csproj.AssemblyReference.cache
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\obj\Debug\MyBank.Lib.csproj.CoreCompileInputs.cache
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\obj\Debug\MyBank.Lib.dll
+C:\Users\napz\RiderProjects\MyBank.Web\MyBank.Lib\obj\Debug\MyBank.Lib.pdb

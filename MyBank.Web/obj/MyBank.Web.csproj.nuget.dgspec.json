@@ -1,0 +1,111 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Web\\MyBank.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Lib\\MyBank.Lib.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Lib\\MyBank.Lib.csproj",
+        "projectName": "MyBank.Lib",
+        "projectPath": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Lib\\MyBank.Lib.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Web\\MyBank.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Web\\MyBank.Web.csproj",
+        "projectName": "MyBank.Web",
+        "projectPath": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Web\\MyBank.Web.csproj",
+        "packagesPath": "C:\\Users\\napz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\napz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Lib\\MyBank.Lib.csproj": {
+                "projectPath": "C:\\Users\\napz\\RiderProjects\\MyBank.Web\\MyBank.Lib\\MyBank.Lib.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
